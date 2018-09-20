@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>HTML5 JUMBOTRON</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="//fonts.googleapis.com/css?family=Josefin+Slab:600" rel="stylesheet">
     <link href="css/jumbotron-common.css" rel="stylesheet">
     <link href="css/jumbotron-index.css" rel="stylesheet">
@@ -59,12 +59,7 @@
             <p>
                 I would like to select
                 <span class="form-group">
-                    <span class="input-group input-group-lg">
-                        <input type="text" maxlength="4" class="form-control" id="channel" size="4">
-                        <span class="input-group-btn">
-                            <button role="button" class="btn btn-accent-dark btn-block btn-sm" id="numGen">Change</button>
-                        </span>
-                    </span>
+                    <input type="text" maxlength="4" class="form-control input-lg" id="channel" size="6">
                     as
                     <label for="channel"> my channel number</label>
                 </span>
@@ -93,73 +88,27 @@
 
     <div class="row">
         <div class="col-sm-offset-3 col-sm-8 col-md-7 form-wrapper form-inline">
-            <!--
-            <p>
-                or
-            </p>
-            -->
             <p>
                 I would like to copy the
                 <span class="form-group">
                     <label for="cameraUrl">Camera URL</label>
-                    <input type="text" class="form-control zclip" id="cameraUrl" size="20"  data-container="body" data-toggle="popover" data-placement="right" data-content="Successfully Copied." readonly>
+                    <input type="text" class="form-control" id="cameraUrl" size="20" readonly>
                 </span>
             </p>
-            <!--
-            <p>
-                or
-            </p>
-            -->
-            <p>
-                I would like to Share the
-                <a class="btn btn-accent btn-md" id="emailLinkButtonEN" target="_blank" href="">Camera URL through Email</a>
-            </p>
         </div>
     </div>
 </section>
-<!--
-<section class="container section-other-apps">
-    <div class="page-header">
-        <h2>Other Applications</h2>
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <a href="switcher-index.html" class="thumbnail">
-                <img data-src="holder.js/527x160/text:video switcher">
-                <div class="caption">
-                    <h3>Video Switcher</h3>
-                    <p>...</p>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-6">
-            <a href="petmonitor-index.html" class="thumbnail">
-                <img data-src="holder.js/527x160/text:pet monitor">
-                <div class="caption">
-                    <h3>Pet Monitor</h3>
-                    <p>...</p>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
--->
 <footer>
     <div class="container">
-        <ul class="footer-links">
-            <li><a href="http://www.ntt.com/aboutus_e/hp/" target="_blank">Terms of Use</a></li>
-        </ul>
         <p class="logos">
-            <a href="http://html5lab.ntt.com/" target="_blank"><img src="images/html5lab.380x80.png" width="190" height="40"></a>
-            <a href="http://nttcom.github.io/skyway/en/" target="_blank"><img src="images/skyway.360x80.png" width="180" height="40"></a>
+            <a href="https://webrtc.ecl.ntt.com/" target="_blank"><img src="images/skyway.360x80.png" width="180" height="40"></a>
         </p>
-        <p class="copyright">Copyright &copy; 2014 <a href="http://www.ntt.com/index-e.html" target="_blank">NTT Communications</a></p>
+        <p class="copyright">Copyright &copy; 2017 <a href="http://www.ntt.com/index-e.html" target="_blank">NTT Communications</a></p>
     </div>
 </footer>
-<script src="js/jquery-2.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/jumbotron-common.js"></script>
 <script src="js/jumbotron-index.js"></script>
-<script src="js/jquery.zeroclipboard.min.js"></script>
 </body>
 </html>
